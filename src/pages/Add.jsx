@@ -38,7 +38,7 @@ function Add() {
         <input type="number" placeholder='price'onChange={handleChange} name="price"/>
         <input type="text" placeholder='cover'onChange={handleChange} name="cover"/>
         
-        <button onClick={handleClick}>add</button>
+        <button classname="formButton" onClick={handleClick}>add</button>
         </div>
   )
 }
