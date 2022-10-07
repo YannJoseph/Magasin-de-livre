@@ -62,7 +62,7 @@ app.put("/books/:id", (req,res) => {
         req.body.title,
         req.body.desc,
         req.body.price,
-        req.body.cover
+        req.body.cover  
     ]
 
     db.query(q,[...values,bookId], (err,data) => {
