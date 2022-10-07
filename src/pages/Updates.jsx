@@ -41,7 +41,7 @@ function Updates() {
         <input type="number" placeholder='price'onChange={handleChange} name="price"/>
         <input type="text" placeholder='cover'onChange={handleChange} name="cover"/>
         
-        <button className="formButton"onClick={handleClick}>Update</button>
+        <button className="formButton"onClick={handleClick}>Update </button>
         </div>
   )
 }
